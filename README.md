@@ -1,4 +1,4 @@
-# Wi-Fi CLI Manager
+# WiFi-CLI Manager
 
 `wifi-cli` is a command-line interface tool for managing Wi-Fi connections and settings on Windows. It provides a range of features for network scanning, connection management, signal monitoring, and more.
 
@@ -24,17 +24,24 @@
    ```bash
    git clone https://github.com/zikani/wifi-cli.git
 
+2. **Navigate to the Project Directory**
+
+   ```bash
+   cd setup.py
+
+2. **install the package**
+
+   ```bash
+   pip install ....
+
+   
+3. **Usage**
+*The wifi-cli tool is used via the command line. Here is the basic syntax:*
+
+   ```bash
+   wifi-cli <command> [options]
 
 
 
-### Key Points
-- **Installation:** Instructions for cloning and installing the package.
-- **Usage:** Detailed examples for each command.
-- **Configuration:** Information on setting and updating configuration.
-- **Logging:** How logging works and where logs are stored.
-- **Troubleshooting:** Common issues and solutions.
-- **Contributing:** How to contribute to the project.
-- **License and Contact:** Licensing information and contact details.
-
-Feel free to adjust the details based on your specific needs or project requirements.
+##  This `README.md` provides a comprehensive guide to using the `wifi-cli` tool, including installation instructions, detailed usage examples, configuration options, and troubleshooting tips. Adjust any placeholder text (like repository URLs or contact email) to fit your actual project details.
 
