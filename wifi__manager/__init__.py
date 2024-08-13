@@ -1,5 +1,3 @@
-
-
 from .wifi_manager import (scan_networks, connect_to_network, current_connection_info, delete_network_profile,
                            monitor_signal_strength, run_speed_test, run_traceroute, set_dns_servers, 
                            create_wifi_hotspot, log_signal_strength, backup_network_settings, log_event, 
@@ -36,4 +34,10 @@ def save_config(config, config_file='config.json'):
     except IOError as e:
         logging.error(f"Failed to save config file: {e}")
 
-
+def update_default_config(ssid=None, password=None):
+    config = load_config()
+    if ssid:
+        config['default_ssid'] = ssid
+    if password:
+        config['default_password'] = password
+    save_config(config)
