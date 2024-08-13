@@ -47,5 +47,5 @@
    wifi-cli scan
 
 
-##  This `README.md` provides a comprehensive guide to using the `wifi-cli` tool, including installation instructions, detailed usage examples, configuration options, and troubleshooting tips. Adjust any placeholder text (like repository URLs or contact email) to fit your actual project details.
+##  This `README.md` provides a comprehensive guide to using the `wifi-cli` tool, including installation instructions, detailed usage examples, configuration options, and troubleshooting tips.##.
 
