@@ -41,6 +41,10 @@
    ```bash
    wifi-cli <command> [options]
 
+2. **example command**
+
+   ```bash
+   wifi-cli scan
 
 
 ##  This `README.md` provides a comprehensive guide to using the `wifi-cli` tool, including installation instructions, detailed usage examples, configuration options, and troubleshooting tips. Adjust any placeholder text (like repository URLs or contact email) to fit your actual project details.
