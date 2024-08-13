@@ -23,3 +23,18 @@
 
    ```bash
    git clone https://github.com/zikani/wifi-cli.git
+
+
+
+
+### Key Points
+- **Installation:** Instructions for cloning and installing the package.
+- **Usage:** Detailed examples for each command.
+- **Configuration:** Information on setting and updating configuration.
+- **Logging:** How logging works and where logs are stored.
+- **Troubleshooting:** Common issues and solutions.
+- **Contributing:** How to contribute to the project.
+- **License and Contact:** Licensing information and contact details.
+
+Feel free to adjust the details based on your specific needs or project requirements.
+
