@@ -188,3 +188,10 @@ def prioritize_network_profile(ssid):
         log_info(f"Network profile {ssid} prioritized.")
     except subprocess.CalledProcessError as e:
         log_error(f"Failed to prioritize network profile {ssid}: {e}")
+
+def update_default_config(ssid, password, filename='config.json'):
+    config = load_config(filename)
+    config['default_ssid'] = ssid
+    config['default_password'] = password
+    save_config(config, filename)
+    log_info(f"Updated default SSID to {ssid} and password.")

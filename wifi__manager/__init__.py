@@ -1,7 +1,10 @@
-from .wifi_manager import (scan_networks, connect_to_network, current_connection_info, delete_network_profile,
-                           monitor_signal_strength, run_speed_test, run_traceroute, set_dns_servers, 
-                           create_wifi_hotspot, log_signal_strength, backup_network_settings, log_event, 
-                           reset_network_adapter, list_network_profiles, prioritize_network_profile)
+from .wifi_manager import (
+    scan_networks, connect_to_network, current_connection_info, delete_network_profile,
+    monitor_signal_strength, run_speed_test, run_traceroute, set_dns_servers, 
+    create_wifi_hotspot, log_signal_strength, backup_network_settings, log_event, 
+    reset_network_adapter, list_network_profiles, prioritize_network_profile, 
+    load_config, save_config, setup_logging, update_default_config
+)
 import json
 import logging
 
